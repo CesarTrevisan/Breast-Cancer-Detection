@@ -525,7 +525,7 @@ To evaluate results I used unsee data (20% of samples randomly chosen from origi
 
 #### Results using each data manipulation technique
 
-<img src="img\output_42.png" width="700">
+<img src="img\output_42.PNG" width="600">
 
 We can notice that scale (0 to 1) data give us more consistent results across all classifiers, specially with support vector machine that performs poorly in all scenarios without scaled data.
 
@@ -536,7 +536,7 @@ Re-sample techniques to correct the unbalanced dataset shows improvements for mo
 
 #### Results using combination of data manipulation technique
 
-<img src="img\output_43.png" width="700">
+<img src="img\output_43.PNG" width="600">
 
 A combination of Scaling, outliers removal and re-sample was the best approach, giving us the highest scores across all classifiers and more reliable results.
 
